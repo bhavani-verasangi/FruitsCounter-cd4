@@ -1,0 +1,62 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-color: #ffd569;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-container {
+  background-color: #ffffff;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 26px;
+  padding: 12px;
+}
+
+.heading {
+  color: #000000;
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  margin: 10px;
+  padding: 15px;
+}
+
+.counter-value {
+  color: #ffd569;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.fruitContainer {
+  display: flex;
+  flex-direction: row;
+  padding: 12px;
+}
+
+.fruitCard {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+}
+
+.image {
+  height: 200px;
+  width: 200px;
+  padding: 12px;
+}
+
+.mangoButton {
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 5px;
+  border-width: 0px;
+  padding: 15px;
+}
